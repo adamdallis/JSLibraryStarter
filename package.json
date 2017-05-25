@@ -1,0 +1,26 @@
+{
+  "name": "Boilerplate for JS Libraries.",
+  "Description":"Basic example of Typescript,Webpack and Karma",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Cooper Software",
+  "scripts": {
+    "compile": "tsc",
+    "build": "npm run compile && npm run test",
+    "test":"node_modules\\.bin\\karma start"
+  },
+
+  "dependencies": {
+    "@types/jasmine": "2.5.47",
+    "jasmine-core": "2.6.2",
+    "karma": "1.7.0",
+    "karma-chrome-launcher": "2.1.1",
+    "karma-jasmine": "1.1.0",
+    "karma-typescript": "3.0.2",
+    "typescript": "2.3.3",
+    "karma-phantomjs-launcher": "1.0.4",
+    "ts-loader":"2.1.0",
+    "source-map-loader":"0.2.1",
+    "webpack": "2.6.0"
+  }
+}
